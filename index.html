@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #008B8B;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h2>Fasteau's Blog</h2>
+<link rel="stylesheet" type="text/css" href="stylesheet.css" />
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Book Review</h2>
+      <h5>The Handmaid's Tale by Margaret Atwood, 1985</h5>
+      <img src="https://images.penguinrandomhouse.com/cover/9780385539241">
+      <p>The Handmaid's Tale Book Review</p>
+      <p>The dystopian novel, The Handmaid's Tale, takes place in a futuristic, patriarchal society known as the Republic of Gilead. It takes place in what we know as the modern-day US. The book asks us a question and warns us that if we leave patriarchal society unchecked, it will develop into a totalitarian, oppressive regime. Atwood illustrates that there aren't that many differences between dystopias and utopias, and that we are closer than ever before to removing free will and thought from our existence. Women are targeted by the regime and made out to be slaves and to think and act like second-class citizens in the novel.</p>
+    </div>
+    <div class="card">
+      <h2>Movie Review</h2>
+      <h5>Poor Things, December 8th, 2023</h5>
+      <img src="https://media.themoviedb.org/t/p/w500/kCGlIMHnOm8JPXq3rXM6c5wMxcT.jpg">
+      <p><a href="https://www.youtube.com/watch?v=RlbR5N6veqw">Poor Things Movie Review (click for Trailer)</p></a>
+      <p>Poor Things is an alternative movie that takes place at an unspecified point in time. The main character and protagonist, Bella Baxter, is a woman who committed suicide only to be brought back to life by an eccentric scientist (with a baby's brain). Her development as a human being is shown throughout the novel, and she discovers what there is to like (and hate) about the epitome(s) of human existence. She is a strong-willed woman who is repeatedly taken advantage of by a canniving and sly suitor who is hellbent on manipulating her for his own pleasure. She discovers more about herself throughout the movie's runtime.</p>
+    
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Me</h2>
+      <p>My name is Hunter T.F. Fasteau. I am 14 y.o. and I attend Piedmont High School as a freshman. I enjoy playing tennis, reading good literature, and meditating.</p>
+    </div>
+    <div class="card">
+      <h3>Popular Post</h3>
+      <a href="https://www.google.com/?safe=active&ssui=on">
+      <img class="popular" width="80%" src="https://pbs.twimg.com/tweet_video_thumb/GCtSkYlXUAEcHzo.jpg"><br></a>
+      <a href="https://www.espn.com/">
+      <img class="popular" src="https://play-lh.googleusercontent.com/6Jaqkn0Ok9ycbZ0TdDTZ9OAaNfQ3v0J8ftP4QQG-MHnUGIej7-5nLBFTREa0i9EgjHM=w240-h480-rw"><br></a>
+      <a href="https://ground.news/">
+      <img class="popular" width="80%" src="https://play-lh.googleusercontent.com/61Y1REKFBgC1C6YxQwZA56516gR1zCw-HIaNyP_WV_MnR6Fuofzd8-uWBHzKxZP7mwM"></a>
+    </div>
+    <div class="card">
+      <h3>Questions, Comments, or Concerns?</h3>
+      <p><a href="https://forms.gle/PrHHNAFxBMBiYSuu5">Google Form</p>
+    </div>
+</body>
+</html>
